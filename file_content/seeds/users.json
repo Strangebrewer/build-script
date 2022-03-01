@@ -1,0 +1,12 @@
+[
+  {
+    "acl": ["admin"],
+    "username": "Mr Mojo Risin",
+    "normalizedUsername": "mr-mojo-risin",
+    "email": "HerpDerp@emaildomain.com",
+    "normalizedEmail": "herpderp@emaildomain.com",
+    "firstName": "Jim",
+    "lastName": "Morrison's Watch",
+    "status": "active"
+  }
+]
