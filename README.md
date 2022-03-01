@@ -30,12 +30,12 @@ Once you're all set up:
 
 There are three flags you can add to modify how this works:
 - `--with-react` will add a `client` folder at the base of the project and build a basic `create-react-app` app.
-- `--with-react-auth` will add a `client` folder at the base of the project and build the boilerplate frontend in the `react_auth` folder. It includes basic file structure, a main page, a login page, authentication, styled-components, a cSS reset, a few ready-made elements, and redux
+- `--with-react-auth` will add a `client` folder at the base of the project and build the boilerplate frontend in the `react_auth` folder. It includes basic file structure, a main page, a login page, authentication, styled-components, a CSS reset, a few ready-made elements, and redux
 - `--code` will open the project in VSCode once the build is finished. If you don't use VSCode, this flag will do nothing - unless `code .` does something else on your computer. Then it will do whatever that does.
 
-If you leave both `react` flags out, it will build just the backend, which works just fine by itself (but you may want to modify the start scripts in the `package.json` so they don't try to open a `client` folder and run `start` in there, too).
+If you leave off both `react` flags, it will build just the backend, which works just fine by itself (but you may want to modify the start scripts in the `package.json` so they don't try to open a `client` folder and run `start` in there, too).
 
-Note that you cannot use both `--with-react` and `--with-react-auth` together. That would be dumb. You cannot dumb here.
+Note that you cannot use both react flags together. That would be dumb. You cannot dumb here.
 
 Once the project is built, start it with `npm start`.
 
