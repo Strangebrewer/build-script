@@ -10,7 +10,7 @@ I make no claims regarding:
 
 I make no claims about this code at all except that it works when I run it.
 
-### Setup
+## Setup
 If you want to try it out, just clone the repo, open the `file_content` folder, copy the `.env.example` file into a `.env` file, substituting your own values for the example values.
 
 You'll also need to have Node installed for this to work.
@@ -21,7 +21,7 @@ You may also want to change the user date in `file_content/seeds/users.json` bef
 
 Also, note that this is NOT updated to work with the recent changes to `react-router-dom 6`. Honestly, it probably won't ever be. Again, feel free to modify to your heart's content. Go nuts! Again!
 
-### Try It Out!
+## Try It Out!
 Once you're all set up:
 - create a directory for your new project and cd into it
 - run the index.js file at the base of this project:
@@ -39,5 +39,5 @@ Note that you cannot use both `--with-react` and `--with-react-auth` together. T
 
 Once the project is built, start it with `npm start`.
 
-### Epilogue/Admission of Defeat
+## Epilogue/Admission of Defeat
 I had fun building this, and I may never actually use it. Who has time??
