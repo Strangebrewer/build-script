@@ -26,7 +26,7 @@ Once you're all set up:
 - create a directory for your new project and cd into it
 - run the index.js file at the base of this project:
 `node /path/to/this/repo`
-- wait a couple minutes, and the project will start.
+- wait a couple minutes - when the project is done, the process should exit.
 
 There are three flags you can add to modify how this works:
 - `--with-react` will add a `client` folder at the base of the project and build a basic `create-react-app` app.
