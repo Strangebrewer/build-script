@@ -6,12 +6,13 @@ I find myself always using the same boilerplate code for new React apps, and thi
 I make no claims regarding:
 - the viability of this code as a base for your projects
 - the security of the authentication
-- the elegance and charm of this code
+- the elegance of this code
+- the elegance and charm of the author
 
 I make no claims about this code at all except that it works when I run it.
 
 ## Setup
-If you want to try it out, just clone the repo, open the `file_content` folder, copy the `.env.example` file into a `.env` file, substituting your own values for the example values.
+If you want to try it out just clone the repo, open the `file_content` folder, and copy the `.env.example` file into a `.env` file, substituting your own values for the example values.
 
 You'll also need to have Node installed for this to work.
 
@@ -25,7 +26,7 @@ Also, note that this is NOT updated to work with the recent changes to `react-ro
 Once you're all set up:
 - create a directory for your new project and cd into it
 - run the index.js file at the base of this project:
-`node /path/to/this/repo`
+`node /path/to/this/repo/on/your/computer`
 - wait a couple minutes - when the project is done, the process should exit.
 
 There are three flags you can add to modify how this works:
