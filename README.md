@@ -1,5 +1,5 @@
 # Boilerplate Build Script
-I built this project as a way to get more familiar with the Node.js built-in module `fs`
+I built this project as a way to get more familiar with build scripting `fs`
 
 I find myself always using the same boilerplate code for new React apps, and this seemed like a good way to automate that. I know I could have just made this into a template repo, but this was for fun/learning, not just functionality.
 
